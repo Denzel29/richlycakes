@@ -84,7 +84,7 @@
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
-    font-family: "Poppins", Arial, sans-serif;
+    /* font-family: "Poppins", Arial, sans-serif; */
     color: #000000;
 }
 
@@ -244,7 +244,7 @@
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: "Poppins", Arial, sans-serif;
+    /* font-family: "Poppins", Arial, sans-serif; */
 }
 
 .product .text h3 a {
@@ -253,7 +253,7 @@
 
 .product .text p.price {
     margin-bottom: 0;
-    color: #82ae46;
+    color: #cda10d;
     font-weight: 400;
 }
 
@@ -263,7 +263,7 @@
 }
 
 .product .text p.price span.price-sale {
-    color: #82ae46;
+    color: #cda10d;
 }
 
 .product .text .pricing {
@@ -291,7 +291,7 @@
 .product .text .bottom-area a {
     color: #fff;
     width: 100%;
-    background: #82ae46;
+    background: #143852;
     width: 40px;
     height: 40px;
     margin: 0 auto;
@@ -312,11 +312,11 @@
 }
 
 .product:hover .pricing {
-    opacity: 0;
+    opacity: 1;
 }
 
 .product:hover .text .bottom-area {
-    opacity: 1;
+    opacity: 0;
 }
 
 .product-details h3 {
