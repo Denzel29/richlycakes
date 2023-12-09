@@ -1,0 +1,125 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  height: 100px !important;
+  margin: auto;
+  overflow: hidden;
+  position: relative !important;
+  width: auto !important;
+}
+
+.slider .slider-track {
+  animation: scroll 40s linear infinite;
+  display: flex !important;
+  width: calc(250px * 14) !important;
+
+}
+
+.slider .slide {
+  height: 100px !important;
+  width: 250px !important;
+}
+
+.hero-wrap {
+  width: 100%;
+  position: relative;
+}
+
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  opacity: .6;
+  width: 50%;
+  background: #82ae46;
+}
+
+.hero-wrap .slider-text {
+  color: #fff;
+  position: relative;
+}
+
+.hero-wrap .slider-text .breadcrumbs {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  z-index: 99;
+  font-weight: 300;
+}
+
+.hero-wrap .slider-text .breadcrumbs span {
+  color: white;
+}
+
+.hero-wrap .slider-text .breadcrumbs span a {
+  color: #fff;
+}
+
+.hero-wrap .slider-text .bread {
+  font-weight: 800;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Poppins", Arial, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hero-wrap .slider-text .btn-primary {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.hero-wrap .slider-text .btn-primary:hover,
+.hero-wrap .slider-text .btn-primary:focus {
+  background: #fff !important;
+  color: #000000;
+}
+
+.hero-wrap.hero-bread {
+  padding: 10em 0;
+}
+
+.hero-wrap,
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.product-category li {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.product-category li a {
+  color: #1b1b19;
+  padding: 5px 20px;
+  font-size: 18px !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.product-category li a.active {
+  background: #1d5178;
+  color: #fff;
+}
