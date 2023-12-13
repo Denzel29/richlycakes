@@ -123,3 +123,11 @@
   background: #1d5178;
   color: #fff;
 }
+
+.product-div{
+  display: none !important;
+}
+
+.show{
+  display: block !important;
+}
